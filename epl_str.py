@@ -54,13 +54,11 @@ def Value_Position(df):
 def main_findings(df):
     st.subheader("Main Findings")
     # Add your main findings here
-    finding2 = '''1. Finding 1: If players want to increase there career span at the top level,
+    finding2 = '''Finding 1: If players want to increase there career span at the top level,
              they have to adapt their style of play to occupy more defensive role which can be seen from the second scatter plot.'''
     finding1 = '''Finding 2: The best time to sell players is when they are approaching the 28 years mark since this 
     is where their prices soar, the most valuable players aren't the ones that are too young, but the ones who have matured 
-    and still are performing at their best (check 1st visual )'''
-
-    
+    and still are performing at their best (check 1st visual )'''    
     st.write(finding1)
     st.write(finding2)
     
